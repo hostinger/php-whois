@@ -19,20 +19,24 @@ class DomainHelper
         $b = self::toAscii($b);
         return ($a == $b);
     }
-    
+
     /**
      * @param string $domain
      * @return string
      */
     public static function toAscii($domain)
     {
+        if (!is_string($domain)) {
+            return "";
+        }
+
         if (empty($domain) || strlen($domain) >= 255) {
             return "";
         }
         $cor = self::correct($domain);
         return Factory::get()->createPunycode()->encode($cor);
     }
-    
+
     /**
      * @param string $domain
      * @return string
