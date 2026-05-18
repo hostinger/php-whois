@@ -1,43 +1,47 @@
 # PHP WHOIS
 
-[![PHP version](https://img.shields.io/badge/php-%3E%3D7.2-8892BF.svg)](https://secure.php.net/)
-[![Packagist](https://img.shields.io/packagist/v/io-developer/php-whois.svg)](https://packagist.org/packages/io-developer/php-whois)
+Sends queries directly to external WHOIS services
 
-PHP WHOIS client implementation. Sends the queries directly to the WHOIS services.
+## Use cases
 
-## Use case
- * Raw and parsed domain lookup
- * Raw and parsed ASN routes lookup
- * Direct queries to TLD/ASN hosts
- * Extending and customizing the default hosts, parsers, etc.
- * Proxying via CurlLoader
+- Raw and parsed domain lookup
+- Raw and parsed ASN routes lookup
+- Direct queries to TLD/ASN hosts
+- Extending and customizing the default hosts, parsers, etc.
+- Proxying via CurlLoader
 
-## Installation
+## Setting up
 
-##### System requirements:
-* PHP >= __7.2__ (old versions supports __5.4+__)
-* php-curl
-* php-mbstring
-* Open port __43__ in firewall
+### Requirements
+
+#### System requirements
+
+- PHP 8.3 or higher
+- `php-curl`
+- `php-mbstring`
+- Open port __43__ in firewall
 
 Optional:
-* php-intl
-* php-memcached + Memcached server
 
-##### Project requirements:
-* PSR-4 autoloader
+- `php-intl`
+- `php-memcached` with Memcached server
 
-##### Composer:
-````
-composer require io-developer/php-whois
-````
-or composer.json:
-````
-"require": {
-    "io-developer/php-whois": "^4.0"
-}
-````
+#### Project requirements
 
+- Composer
+- PSR-4 autoloader
+
+### Instructions
+
+Install through Composer:
+
+```bash
+composer require hostinger/php-whois
+```
+
+### Testing
+
+Run `docker compose up` to run the `test-runner` container.
 
 ## Usage
 

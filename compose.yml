@@ -1,0 +1,11 @@
+services:
+  php:
+    container_name: test-runner
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    command:
+      - "/bin/sh"
+      - "-c"
+      - "composer install && composer test"

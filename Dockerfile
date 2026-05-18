@@ -1,21 +1,15 @@
-ARG IMAGE
-FROM ${IMAGE}
+FROM php:8.3-cli-alpine
 
-# packages
-ARG PACKAGES
-RUN if [ "${PACKAGES}" ]; then apk update && apk add -f ${PACKAGES}; fi
+RUN apk update && apk add --no-cache \
+    git \
+    zip \
+    unzip \
+    icu-dev
 
-# php modules
-ARG PHPMODS
-RUN if [ "${PHPMODS}" ]; then docker-php-ext-install ${PHPMODS}; fi
+COPY --from=composer /usr/bin/composer /usr/bin/composer
 
-# composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
-VOLUME /workdir
-WORKDIR /workdir
-
-COPY "./run-tests.sh" "/run-tests.sh"
-RUN chmod +x "/run-tests.sh"
+WORKDIR /app
 
 ENTRYPOINT []
+
+CMD ["sleep", "infinity"]

@@ -12,7 +12,7 @@ class TextHelper
      */
     public static function toUtf8($text)
     {
-        $srcEncoding = mb_detect_encoding($text);
+        $srcEncoding = mb_detect_encoding($text, null, true);
         if (!empty($srcEncoding) && strtolower($srcEncoding) !== 'utf-8') {
             return mb_convert_encoding($text, 'utf-8', strtolower($srcEncoding));
         }
