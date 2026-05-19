@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 RUN export DEBIAN_FRONTEND=noninteractive \
- && apt update && apt install -y \
+    && apt update && apt install -y \
     php8.3-cli \
     php8.3-dev \
     php8.3-mbstring \
