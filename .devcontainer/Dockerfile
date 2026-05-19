@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt update && apt install -y \
