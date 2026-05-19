@@ -10,6 +10,7 @@ use Iodev\Whois\Exceptions\ServerMismatchException;
 use Iodev\Whois\Helpers\DomainHelper;
 use Iodev\Whois\Loaders\FakeSocketLoader;
 use Iodev\Whois\Whois;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
 class TldParsingTest extends TestCase
@@ -65,8 +66,6 @@ class TldParsingTest extends TestCase
     }
 
     /**
-     * @dataProvider getTestData
-     *
      * @param string $domain
      * @param string $srcTextFilename
      * @param string $expectedJsonFilename
@@ -74,6 +73,7 @@ class TldParsingTest extends TestCase
      * @throws ServerMismatchException
      * @throws \Iodev\Whois\Exceptions\WhoisException
      */
+    #[DataProvider('getTestData')]
     public function testResponseParsing($domain, $srcTextFilename, $expectedJsonFilename = null)
     {
         $w = self::whoisFrom($srcTextFilename);
@@ -157,7 +157,7 @@ class TldParsingTest extends TestCase
         );
     }
 
-    public function getTestData()
+    public static function getTestData()
     {
         $resolveKeys = function($list) {
             $result = [];
