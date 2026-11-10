@@ -1,6 +1,6 @@
 {
   "domainName": "google.mu",
-  "whoisServer": "",
+  "whoisServer": "whois.markmonitor.com",
   "nameServers": [
     "ns1.google.com",
     "ns2.google.com",
@@ -8,15 +8,14 @@
     "ns4.google.com"
   ],
   "dnssec": "unsigned",
-  "creationDate": "2000-12-20T13:00:00.000Z",
-  "expirationDate": "2018-12-19T13:00:00.000Z",
-  "updatedDate": "2017-11-17T10:28:23.165Z",
+  "creationDate": "2000-12-20T13:00:00Z",
+  "expirationDate": "2026-12-19T13:00:00Z",
+  "updatedDate": "2026-08-12T11:34:28Z",
   "states": [
+    "clientdeleteprohibited",
     "clienttransferprohibited",
-    "clientupdateprohibited",
-    "ok",
-    "clientdeleteprohibited"
+    "clientupdateprohibited"
   ],
-  "owner": "Google Inc.",
-  "registrar": "MarkMonitor"
+  "owner": "Google LLC",
+  "registrar": "MarkMonitor Inc."
 }
