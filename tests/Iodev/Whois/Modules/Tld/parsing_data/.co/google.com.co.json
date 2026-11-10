@@ -1,21 +1,21 @@
 {
   "domainName": "google.com.co",
-  "whoisServer": "",
+  "whoisServer": "whois.markmonitor.com",
   "nameServers": [
-    "ns1.google.net",
-    "ns2.google.net",
-    "ns3.google.net",
-    "ns4.google.net"
+    "ns1.google.com",
+    "ns2.google.com",
+    "ns3.google.com",
+    "ns4.google.com"
   ],
   "dnssec": "unsigned",
   "creationDate": "2003-04-21T00:00:00Z",
-  "expirationDate": "2018-04-24T23:59:59Z",
-  "updatedDate": "2017-09-13T20:29:56Z",
+  "expirationDate": "2027-04-24T23:59:59Z",
+  "updatedDate": "2026-03-28T11:22:02Z",
   "states": [
+    "clientdeleteprohibited",
     "clienttransferprohibited",
-    "clientupdateprohibited",
-    "clientdeleteprohibited"
+    "clientupdateprohibited"
   ],
-  "owner": "Google Inc.",
+  "owner": "",
   "registrar": "MarkMonitor, Inc."
 }

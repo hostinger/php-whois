@@ -1,0 +1,19 @@
+{
+  "domainName": "google.to",
+  "whoisServer": "whois.markmonitor.com",
+  "nameServers": [
+    "ns1.google.com",
+    "ns2.google.com"
+  ],
+  "dnssec": "unsigned",
+  "creationDate": "2018-11-30T07:38:29Z",
+  "expirationDate": "2027-11-30T07:38:29Z",
+  "updatedDate": "2026-11-03T10:38:33Z",
+  "states": [
+    "clientdeleteprohibited",
+    "clienttransferprohibited",
+    "clientupdateprohibited"
+  ],
+  "owner": "",
+  "registrar": "MarkMonitor Inc."
+}

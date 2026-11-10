@@ -906,7 +906,7 @@ class TldParsingTest extends TestCase
 
             // .TO
             [ "free.to", ".to/free.txt", null ],
-            // [ "google.to", ".to/google.to.txt", ".to/google.to.json" ],
+            [ "google.to", ".to/google.to.txt", ".to/google.to.json" ],
 
             // .TOURS
             [ "free.tours", ".tours/free.txt", null ],
@@ -974,7 +974,7 @@ class TldParsingTest extends TestCase
 
             // .VU
             [ "free.vu", ".vu/free.txt", null ],
-            // [ "google.vu", ".vu/google.vu.txt", ".vu/google.vu.json" ],
+            [ "google.vu", ".vu/google.vu.txt", ".vu/google.vu.json" ],
 
             // .WS
             [ "free.ws", ".ws/free.txt", null ],

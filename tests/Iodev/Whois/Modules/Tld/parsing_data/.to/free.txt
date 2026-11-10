@@ -1,2 +1,38 @@
-Tonic whoisd V1.1
-No match for free
+>>> Domain hforge-unregistered-xq7z91.to is available for registration
+
+>>> Please visit https://rdap.tonicregistry.to/registrars/ for a list of
+accredited registrars
+
+>>> Last update of WHOIS database: 2026-11-10T14:33:00.017Z <<<
+
+For more information on domain status codes, please visit https://icann.org/epp
+
+This information has been collected for the WHOIS database through a
+.TO-Accredited Registrar. This information is provided to you for
+informational purposes only and its accuracy is not guaranteed.
+
+For privacy reasons, personal information contained in domain name
+registration data is no longer displayed in our WHOIS. If you have a
+legitimate reason for contacting a domain name contact for specific domain
+name, please contact the sponsoring registrar.
+
+This service is intended only for query-based access. By using this
+service, you agree that you will use this data only for lawful purposes and
+that, under no circumstances you will use this data:
+
+- to allow, enable, or otherwise support the transmission of mass
+  unsolicited, commercial advertising or solicitations via electronic mail,
+  or otherwise.
+- for spamming or speculative purposes or commercial purposes.
+- to enable high volume, automated, electronic processes that apply to the
+  registry (or its system) for any other abusive purpose.
+
+Compilation, repackaging, dissemination, or other use of the WHOIS database
+in its entirety, or of a substantial portion thereof, is not allowed
+without the .TO Registry's prior written permission. We reserve the right
+to modify or change these conditions at any time without prior or
+subsequent notification of any kind. By executing this query, in any
+manner whatsoever, you agree to abide by these terms.
+
+All domain names are subject to the .TO Registry Policies. For details,
+please visit https://internetnaming.co/resources

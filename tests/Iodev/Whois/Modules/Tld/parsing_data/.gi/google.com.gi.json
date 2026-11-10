@@ -9,11 +9,11 @@
   ],
   "dnssec": "unsigned",
   "creationDate": "2003-03-21T05:00:00Z",
-  "expirationDate": "2018-03-21T20:06:52Z",
-  "updatedDate": "2017-09-09T00:24:50Z",
+  "expirationDate": "2027-03-21T20:06:52Z",
+  "updatedDate": "2026-08-12T02:29:33Z",
   "states": [
-    "ok"
+    "clienttransferprohibited"
   ],
-  "owner": "Google Inc.",
+  "owner": "",
   "registrar": "GibNet Registrar"
 }
